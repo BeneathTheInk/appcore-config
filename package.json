@@ -11,7 +11,7 @@
 	"author": "Tyler Johnson <tyler@tylerjohnson.me>",
 	"main": "index.js",
 	"scripts": {
-		"lint": "jshint lib/",
+		"lint": "jshint *.js",
 		"test": "node test.js",
 		"prepublish": "npm run lint"
 	},
