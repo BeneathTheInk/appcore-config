@@ -1,0 +1,28 @@
+{
+	"name": "@beneaththeink/appcore-config",
+	"version": "1.0.0",
+	"description": "Sets configuration on apps from the env and cli arguments.",
+	"private": true,
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://beneaththeink.git.beanstalkapp.com/appcore-config.git"
+	},
+	"author": "Tyler Johnson <tyler@tylerjohnson.me>",
+	"main": "index.js",
+	"scripts": {
+		"lint": "jshint lib/",
+		"test": "node test.js",
+		"prepublish": "npm run lint"
+	},
+	"keywords": [],
+	"dependencies": {
+		"extend-object": "~1.0.0",
+		"minimist": "~1.2.0"
+	},
+	"devDependencies": {
+		"@beneaththeink/appcore": "~4.0.1",
+		"jshint": "~2.9.0",
+		"tape": "~4.2.0"
+	}
+}
