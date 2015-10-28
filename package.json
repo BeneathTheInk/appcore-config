@@ -10,6 +10,9 @@
 	},
 	"author": "Tyler Johnson <tyler@tylerjohnson.me>",
 	"main": "index.js",
+	"browser": {
+		"fs": false
+	},
 	"scripts": {
 		"lint": "jshint *.js",
 		"test": "node test.js",
@@ -18,6 +21,8 @@
 	"keywords": [],
 	"dependencies": {
 		"extend-object": "~1.0.0",
+		"hjson": "~1.7.4",
+		"js-yaml": "~3.4.3",
 		"minimist": "~1.2.0"
 	},
 	"devDependencies": {
