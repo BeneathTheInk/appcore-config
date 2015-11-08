@@ -30,7 +30,7 @@
 		"minimist": "~1.2.0"
 	},
 	"devDependencies": {
-		"@beneaththeink/appcore": "~4.0.1",
+		"appcore": "~4.0.1",
 		"jshint": "~2.8.0",
 		"tape": "~4.2.0"
 	},
